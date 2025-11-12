@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title">
+  <title>Flowing line forming the letter M</title>
+  <defs>
+    <linearGradient id="mStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00BFA5" />
+      <stop offset="100%" stop-color="#00E690" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40" result="blur" />
+    </filter>
+  </defs>
+  <rect width="1200" height="420" fill="#FFFFFF" />
+  <g transform="translate(60 40)">
+    <ellipse cx="770" cy="200" rx="150" ry="120" fill="#00E690" opacity="0.2" filter="url(#glow)" />
+    <path d="M50 300 C200 120 280 120 380 270 S560 360 650 200 C720 80 830 100 980 300" fill="none" stroke="url(#mStroke)" stroke-width="27" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
