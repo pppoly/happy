@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>創翔モア | 社会をつなぐ、テクノロジー。</title>
+    <title>Socialmore Labs | 社会をつなぐテックパートナー</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
+    <header class="site-header" aria-label="主要ナビゲーション">
       <div class="container">
-        <a class="logo" href="/">SOCIALMORE</a>
+        <a class="logo" href="/">Socialmore Labs</a>
         <nav class="site-nav" aria-label="Primary navigation">
           <ul>
             <li><a href="/about.html">会社紹介</a></li>
@@ -17,6 +17,7 @@
             <li><a href="/contact.html">お問い合わせ</a></li>
           </ul>
         </nav>
+        <a class="button tertiary" href="mailto:hello@socialmore.jp">相談する</a>
       </div>
     </header>
 
@@ -25,14 +26,20 @@
         <div class="container hero-content">
           <div class="hero-copy">
             <p class="hero-kicker">SOCIALMORE</p>
-            <h1 id="hero-heading">社会をつなぐ、テクノロジー。</h1>
+            <h1 id="hero-heading">社会をつなぐテクノロジーを、もっと身近に。</h1>
             <p class="hero-subtext">
-              創翔モア（SOCIALMORE）は、AIとデジタル技術を通じて、地域・企業・多様な人々が共に成長する社会基盤をつくるテックカンパニーです。
+              Socialmore Labs は、小さなチームでも導入できる AI / デジタルソリューションを設計し、
+              地域・企業・多様な人々が共に成長できる仕組みを支援します。
             </p>
             <div class="hero-ctas">
-              <a class="button primary" href="/about.html">会社紹介を見る</a>
+              <a class="button primary" href="/about.html">サービスを知る</a>
               <a class="button secondary" href="/brands.html">３つのブランド</a>
             </div>
+            <ul class="hero-highlights" role="list">
+              <li>短期導入のアジャイル開発</li>
+              <li>伴走型のデータ活用支援</li>
+              <li>地域連携のコミュニティ設計</li>
+            </ul>
           </div>
           <div class="hero-media" aria-hidden="true">
             <img src="assets/hero.svg" alt="" />
@@ -42,19 +49,62 @@
 
       <section class="keywords" aria-labelledby="keywords-heading">
         <div class="container">
-          <h2 id="keywords-heading">共創を支えるキーワード</h2>
+          <p class="section-kicker">Our pillars</p>
+          <h2 id="keywords-heading">共創を支える３つの姿勢</h2>
           <div class="keyword-grid">
             <article class="keyword-card">
               <h3>Connect（つなぐ）</h3>
-              <p>人と人、地域と企業を結び、新しい協働を生み出します。</p>
+              <p>人と地域とテクノロジーを柔らかく結び、未来の協働を生み出します。</p>
             </article>
             <article class="keyword-card">
               <h3>Empower（支える）</h3>
-              <p>テクノロジーで組織とコミュニティの力を引き出します。</p>
+              <p>実装と教育をセットにし、チームが自走できるよう寄り添います。</p>
             </article>
             <article class="keyword-card">
               <h3>Evolve（共に進化する）</h3>
-              <p>多様な人々が学び合い、社会を前に進めます。</p>
+              <p>データを通じて学び合い、継続的な改善文化を育てます。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" aria-labelledby="services-heading">
+        <div class="container">
+          <p class="section-kicker">Solutions</p>
+          <h2 id="services-heading">小さな課題から始められるサービス</h2>
+          <div class="service-grid">
+            <article class="service-card">
+              <div>
+                <p class="eyebrow">01</p>
+                <h3>AI プロトタイピング</h3>
+                <p>
+                  ユースケースの発掘から、数週間で試せる PoC を構築。成果を
+                  可視化し、次の一歩につなげます。
+                </p>
+              </div>
+              <a class="text-link" href="/about.html">もっと見る</a>
+            </article>
+            <article class="service-card">
+              <div>
+                <p class="eyebrow">02</p>
+                <h3>デジタルプロダクト伴走</h3>
+                <p>
+                  デザイナーとエンジニアがワンチームで参加し、UI/UX 改善や機能
+                  開発を継続的にサポートします。
+                </p>
+              </div>
+              <a class="text-link" href="/brands.html">実績を見る</a>
+            </article>
+            <article class="service-card">
+              <div>
+                <p class="eyebrow">03</p>
+                <h3>コミュニティ設計</h3>
+                <p>
+                  オンラインとリアルを組み合わせたコミュニティ運営で、地域と企業
+                  を巻き込む共創基盤をつくります。
+                </p>
+              </div>
+              <a class="text-link" href="/contact.html">相談する</a>
             </article>
           </div>
         </div>
@@ -62,20 +112,40 @@
 
       <section class="brands" aria-labelledby="brands-heading">
         <div class="container">
-          <h2 id="brands-heading">ブランドのご紹介</h2>
+          <p class="section-kicker">Brands</p>
+          <h2 id="brands-heading">ブランドと取り組み</h2>
           <div class="brand-grid">
             <article class="brand-card">
               <h3>創翔モア</h3>
-              <p>社会をつなぐ共創の中核。</p>
+              <p>社会をつなぐ共創の中核。官民連携の共創プログラムを推進します。</p>
             </article>
             <article class="brand-card">
               <h3>TCOC</h3>
-              <p>コミュニティをつくる人のクラブ。</p>
+              <p>コミュニティをつくる人のクラブ。リーダー育成と運営支援を提供。</p>
             </article>
             <article class="brand-card">
               <h3>モア</h3>
-              <p>技術で、共創を加速する。</p>
+              <p>技術で共創を加速。AI / IoT を用いた現場改善ソリューション。</p>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta-heading">
+        <div class="container">
+          <div class="cta-card">
+            <div>
+              <p class="section-kicker">Get in touch</p>
+              <h2 id="cta-heading">まずはライトな相談から</h2>
+              <p>
+                課題の整理や簡単なアイデアの壁打ちでも、お気軽にご連絡ください。
+                オンラインミーティングでスピーディにご提案します。
+              </p>
+            </div>
+            <div class="cta-actions">
+              <a class="button primary" href="mailto:hello@socialmore.jp">メールで問い合わせ</a>
+              <a class="button secondary" href="/contact.html">資料請求</a>
+            </div>
           </div>
         </div>
       </section>
@@ -83,7 +153,12 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p>&copy; <span lang="en">SOCIALMORE</span>. All rights reserved.</p>
+        <p>&copy; <span lang="en">Socialmore Labs</span>. All rights reserved.</p>
+        <ul>
+          <li><a href="/about.html">会社概要</a></li>
+          <li><a href="/brands.html">ブランド</a></li>
+          <li><a href="/contact.html">お問い合わせ</a></li>
+        </ul>
       </div>
     </footer>
   </body>
