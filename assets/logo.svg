@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28" role="img" aria-labelledby="title">
+  <title>創翔モア ロゴ</title>
+  <defs>
+    <linearGradient id="logoGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2CD3E1"/>
+      <stop offset="1" stop-color="#147DD6"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect x="0" y="0" width="28" height="28" rx="6" fill="url(#logoGradient)"/>
+    <path fill="#FFFFFF" d="M8 9H20V11H8zM8 17H20V19H8z"/>
+    <g fill="#0F1F2D">
+      <path d="M36 8H43.5L46 11H48L50.5 8H60V11H54.4L49.2 18.8H43.4L38.2 11H32V8H36ZM40 12H50V16H40V12ZM45.2 17L50 22H44.8L42.6 19.4L40.4 22H35.2L39.8 17H45.2ZM58 8H62V22H58V8ZM62 18H66V22H62V18Z"/>
+      <path d="M62 8H74C77.2 8 79.2 9.6 79.2 12H75.4C75.4 11 74.6 10.4 73.2 10.4H62V8ZM62 12.8H73.6C76.6 12.8 78.8 14.4 78.8 17C78.8 19.4 77 21 74.2 21H66.4V22H62V12.8ZM66.4 17H73.6C74.8 17 75.4 16.4 75.4 15.6C75.4 14.6 74.8 14 73.6 14H66.4V17ZM83 8H88.2C91.8 8 94 9.8 94 12.6C94 14.8 92.6 16.4 90.2 16.8L94.4 22H88.8L85.2 17.2H83V22H79V8H83ZM88 14C89.2 14 90 13.2 90 12.2C90 11.2 89.2 10.6 88 10.6H83V14H88Z"/>
+      <path d="M92 8H110V11H92V8ZM96 11H100V22H96V11ZM96 14H108V17H96V14ZM96 19H110V22H96V19Z"/>
+      <path d="M116 8H134V11H116V8ZM120 11H134V14H120V11ZM123 14H128.4L134 22H128L124.8 17.6L120.6 22H114.6L123 14Z"/>
+    </g>
+  </g>
+</svg>
