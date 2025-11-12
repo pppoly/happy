@@ -3,88 +3,289 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>創翔モア | 社会をつなぐ、テクノロジー。</title>
+    <title>創翔モア | SOCIALMORE</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container">
-        <a class="logo" href="/">SOCIALMORE</a>
-        <nav class="site-nav" aria-label="Primary navigation">
+    <header class="site-header" id="top">
+      <div class="container nav-wrapper">
+        <a class="brand" href="#top">
+          <span class="brand-icon" aria-hidden="true"></span>
+          <span class="brand-text">
+            <span class="brand-jp">創翔モア</span>
+            <span class="brand-en">SOCIALMORE</span>
+          </span>
+        </a>
+        <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="primary-navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="主要ナビゲーション">
           <ul>
-            <li><a href="/about.html">会社紹介</a></li>
-            <li><a href="/brands.html">ブランド</a></li>
-            <li><a href="/contact.html">お問い合わせ</a></li>
+            <li><a href="#services">サービス</a></li>
+            <li><a href="#features">機能</a></li>
+            <li><a href="#pricing">料金</a></li>
+            <li><a href="#faq">よくある質問</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
           </ul>
+          <a class="button primary" href="#contact">無料で相談する</a>
         </nav>
       </div>
     </header>
 
     <main>
+      <!-- HERO SECTION -->
       <section class="hero" aria-labelledby="hero-heading">
         <div class="container hero-content">
           <div class="hero-copy">
-            <p class="hero-kicker">SOCIALMORE</p>
-            <h1 id="hero-heading">社会をつなぐ、テクノロジー。</h1>
+            <p class="eyebrow">SOCIALMORE / コミュニティテック</p>
+            <h1 id="hero-heading">コミュニティ運営を、もっとやさしく、もっとテックに。</h1>
             <p class="hero-subtext">
-              創翔モア（SOCIALMORE）は、AIとデジタル技術を通じて、地域・企業・多様な人々が共に成長する社会基盤をつくるテックカンパニーです。
+              創翔モア（SOCIALMORE）は、地域コミュニティ、NPO、学生サークル、企業の社内コミュニティなど、日々のつながりを支える人たちをテクノロジーでそっと後押しするパートナーです。
             </p>
             <div class="hero-ctas">
-              <a class="button primary" href="/about.html">会社紹介を見る</a>
-              <a class="button secondary" href="/brands.html">３つのブランド</a>
+              <a class="button primary" href="#contact">まずは相談してみる</a>
+              <a class="button ghost" href="#services">サービスの概要を見る</a>
             </div>
           </div>
           <div class="hero-media" aria-hidden="true">
-            <img src="assets/hero.svg" alt="" />
+            <div class="app-card">
+              <div class="app-card__header">
+                <span class="status-pill">LIVE</span>
+                <p>朝活コミュニティ</p>
+                <span class="members">128名</span>
+              </div>
+              <div class="app-card__body">
+                <div class="stat">
+                  <p class="label">本日の参加</p>
+                  <p class="value">56人</p>
+                </div>
+                <div class="stat">
+                  <p class="label">寄付・会費</p>
+                  <p class="value">¥128,400</p>
+                </div>
+                <div class="stat">
+                  <p class="label">アンケート</p>
+                  <p class="value">87% 満足</p>
+                </div>
+              </div>
+              <div class="app-card__footer">
+                <p>AIサポーターが次のイベント案を提案中...</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="keywords" aria-labelledby="keywords-heading">
+      <!-- PROBLEMS & SOLUTIONS SECTION -->
+      <section class="problems" id="services" aria-labelledby="problems-heading">
         <div class="container">
-          <h2 id="keywords-heading">共創を支えるキーワード</h2>
-          <div class="keyword-grid">
-            <article class="keyword-card">
-              <h3>Connect（つなぐ）</h3>
-              <p>人と人、地域と企業を結び、新しい協働を生み出します。</p>
+          <div class="section-heading">
+            <p class="eyebrow">SERVICES</p>
+            <h2 id="problems-heading">コミュニティ運営の「困った」を、一緒に整える</h2>
+            <p class="lead">
+              参加者との連絡、会員管理、イベント準備… 日々のタスクに追われて本当にやりたい活動に集中できない。そんな悩みをSOCIALMOREがやさしく整理します。
+            </p>
+          </div>
+          <div class="card-grid">
+            <article class="info-card">
+              <h3>情報の分散</h3>
+              <p>LINEやメール、スプレッドシートに散らばる会員情報をまとめたい。</p>
             </article>
-            <article class="keyword-card">
-              <h3>Empower（支える）</h3>
-              <p>テクノロジーで組織とコミュニティの力を引き出します。</p>
+            <article class="info-card">
+              <h3>イベント準備の負担</h3>
+              <p>参加受付やリマインド、当日のチェックインまで手作業で大忙し。</p>
             </article>
-            <article class="keyword-card">
-              <h3>Evolve（共に進化する）</h3>
-              <p>多様な人々が学び合い、社会を前に進めます。</p>
+            <article class="info-card">
+              <h3>資金まわりの不安</h3>
+              <p>会費徴収や寄付管理が煩雑で透明性の確保も大変。</p>
+            </article>
+          </div>
+          <div class="solutions">
+            <h3>SOCIALMOREができること</h3>
+            <ul>
+              <li>会員・イベント・決済データをひとつのダッシュボードで一元管理</li>
+              <li>LINE連携やメール配信で参加者とのコミュニケーションを自動化</li>
+              <li>AIアシスタントが議事録整理やレポート作成をサポート</li>
+              <li>専門チームによる導入＆運用伴走で安心スタート</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES SECTION -->
+      <section class="features" id="features" aria-labelledby="features-heading">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">FEATURES</p>
+            <h2 id="features-heading">シンプルに使える、頼れる機能</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-icon">👥</span>
+              <h3>会員管理</h3>
+              <p>会員属性や参加履歴を一目で把握。タグ付け・セグメント配信も簡単。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon">🎫</span>
+              <h3>イベント受付</h3>
+              <p>申し込みフォーム、リマインド、QRチェックインまでワンストップ。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon">💳</span>
+              <h3>決済・会費徴収</h3>
+              <p>会費や寄付をオンラインで安全に受け取り、明細を自動整理。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon">✨</span>
+              <h3>AIスキルアップ支援</h3>
+              <p>AIが議事録作成や次の企画アイデアを提案し、運営負担を軽減。</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="brands" aria-labelledby="brands-heading">
+      <!-- USE CASES SECTION -->
+      <section class="usecases" aria-labelledby="usecases-heading">
         <div class="container">
-          <h2 id="brands-heading">ブランドのご紹介</h2>
-          <div class="brand-grid">
-            <article class="brand-card">
-              <h3>創翔モア</h3>
-              <p>社会をつなぐ共創の中核。</p>
+          <div class="section-heading">
+            <p class="eyebrow">FOR WHOM</p>
+            <h2 id="usecases-heading">こんなコミュニティに選ばれています</h2>
+          </div>
+          <div class="usecase-grid">
+            <article>
+              <h3>NPO・市民団体</h3>
+              <p>助成金管理や寄付者との関係づくりを、丁寧なデータ基盤で支援。</p>
             </article>
-            <article class="brand-card">
-              <h3>TCOC</h3>
-              <p>コミュニティをつくる人のクラブ。</p>
+            <article>
+              <h3>学生サークル</h3>
+              <p>学内外イベントの受付、会計管理、OB/OG連絡までスムーズに。</p>
             </article>
-            <article class="brand-card">
-              <h3>モア</h3>
-              <p>技術で、共創を加速する。</p>
+            <article>
+              <h3>地域コミュニティ</h3>
+              <p>自治体・町内会の情報発信をモバイルフレンドリーにアップデート。</p>
+            </article>
+            <article>
+              <h3>企業の社内コミュニティ</h3>
+              <p>社内サークルやボランティア活動の活性化を可視化レポートでサポート。</p>
             </article>
           </div>
+        </div>
+      </section>
+
+      <!-- PRICING SECTION -->
+      <section class="pricing" id="pricing" aria-labelledby="pricing-heading">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">PRICING</p>
+            <h2 id="pricing-heading">シンプルな料金プラン</h2>
+            <p class="lead">コミュニティの規模や課題に合わせて柔軟にご提案します。</p>
+          </div>
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <h3>ライトプラン</h3>
+              <p class="price">お問い合わせください</p>
+              <ul>
+                <li>基本機能＋メールサポート</li>
+                <li>月間イベント 5 件まで</li>
+                <li>初期セットアップガイド</li>
+              </ul>
+              <a class="button secondary" href="#contact">相談する</a>
+            </article>
+            <article class="pricing-card highlighted">
+              <h3>スタンダードプラン</h3>
+              <p class="price">お問い合わせください</p>
+              <ul>
+                <li>全機能利用・API連携</li>
+                <li>コミュニティ伴走サポート</li>
+                <li>優先サポート / 月次レポート</li>
+              </ul>
+              <a class="button primary" href="#contact">このプランで相談</a>
+            </article>
+            <article class="pricing-card">
+              <h3>パートナーシップ</h3>
+              <p class="price">共同企画に応じて</p>
+              <ul>
+                <li>共創プロジェクト設計</li>
+                <li>専任チームによる長期支援</li>
+                <li>研究・実証実験も対応</li>
+              </ul>
+              <a class="button secondary" href="#contact">詳細を聞く</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ SECTION -->
+      <section class="faq" id="faq" aria-labelledby="faq-heading">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">FAQ</p>
+            <h2 id="faq-heading">よくある質問</h2>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>導入までにどのくらい時間がかかりますか？</summary>
+              <p>最短で2週間程度でのスモールスタートが可能です。体制に応じて段階的に機能を拡張できます。</p>
+            </details>
+            <details>
+              <summary>ITに詳しくなくても使いこなせますか？</summary>
+              <p>はい。初期レクチャーや伴走サポート、わかりやすいヘルプセンターをご用意しています。</p>
+            </details>
+            <details>
+              <summary>既存の会員データを移行できますか？</summary>
+              <p>CSVデータや各種サービスとの連携での移行支援を行っていますのでご相談ください。</p>
+            </details>
+            <details>
+              <summary>セキュリティはどうなっていますか？</summary>
+              <p>国内データセンターでの運用、多要素認証、アクセス権限の細分化など安心の仕組みを採用しています。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT CTA SECTION -->
+      <section class="contact-cta" id="contact" aria-labelledby="contact-heading">
+        <div class="container contact-card">
+          <div>
+            <p class="eyebrow">CONTACT</p>
+            <h2 id="contact-heading">まずは小さく、一緒に始めてみませんか？</h2>
+            <p class="lead">
+              わたしたちは「身近な頼れるテックチーム」として、コミュニティの挑戦をやさしく支えます。お気軽にご相談ください。
+            </p>
+          </div>
+          <a class="button primary" href="/contact.html">お問い合わせフォームへ</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container">
-        <p>&copy; <span lang="en">SOCIALMORE</span>. All rights reserved.</p>
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">株式会社創翔モア（SOCIALMORE）</p>
+          <p>〒000-0000 東京都〇〇区〇〇 0-0-0 SOCIAL BLDG.</p>
+          <p>community@soshomore.co.jp / 03-0000-0000</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">プライバシーポリシー</a>
+          <a href="#">利用規約</a>
+          <a href="/contact.html">お問い合わせ</a>
+        </div>
       </div>
+      <p class="copyright">&copy; <span lang="en">SOCIALMORE</span>. All rights reserved.</p>
     </footer>
+
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const siteNav = document.querySelector('.site-nav');
+
+      navToggle.addEventListener('click', () => {
+        const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', String(!expanded));
+        siteNav.classList.toggle('open');
+        document.body.classList.toggle('nav-open');
+      });
+    </script>
   </body>
 </html>
