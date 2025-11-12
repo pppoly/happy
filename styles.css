@@ -1,0 +1,17 @@
+/* Responsive spacing refinements */
+
+@media (max-width: 600px) {
+  section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+}
